@@ -1,0 +1,359 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /* navigation */
+  .main-nav {
+    background-color:  #46503C;
+    overflow: hidden;
+  }
+  .main-nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  } 
+  .main-nav a:hover {
+    background-color:#A19E8F;
+    color: black;
+  }
+  .logo {
+  background-color: #262118;
+  color: white; 
+  }
+  .logo a:hover {
+  background-color: #262118;
+  }
+/* main background */
+  .head_background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/sarah-dorweiler-x2Tmfd1-SgA-unsplash.jpg');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .nature-text {
+    text-align: center;
+    position: absolute;
+    
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .nature-text {
+    background-color: transparent ;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+  }
+  
+  /* About me button */
+
+  .nature-text button {
+    background-color: #46503C;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px; 
+  padding-right: 20px;
+    margin: 4px 2px;
+    opacity: 1;
+  }
+  
+  
+  .nature-text button:hover {
+    background-color: #262118;
+    color: white;
+  }
+
+  /* main text */
+  
+  section.first {
+  background-color: white;
+  margin-top: 100px;
+  color: #2F3E46;
+  font-size: 16px;
+  text-align: justify;
+  text-align-last: center;
+  letter-spacing: 3px;
+  line-height: 3;
+  }
+  
+  .second {
+    background-color: #ffffff;
+    color: #52796F;
+    font-size: 24px;
+    text-align: justify;
+    text-align-last: center;
+    letter-spacing: 4px;
+    line-height: 3;
+  }
+  
+    /* photos in column */
+  
+  .my-gallery {
+     margin-top: 150px;
+     margin-bottom: 30px;
+      }
+ 
+     
+  
+      /* columns with text */
+  .column {
+    column-gap: 10px; 
+    float: left;
+    width: 28%;
+    padding: 20px;
+    height: 400px;
+    font-size: 14px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 40px;
+    letter-spacing: 2px;
+    line-height: 2;
+    text-align: justify;
+  
+  }
+  
+  .h2 {
+    color: #4B4230;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  
+   
+  /* about me section*/ 
+  
+  .content{
+    background-image: url("../images/forest-547363_1920.jpg");
+    background-color: #cccccc;
+    display:flex;
+    align-items: left;
+    justify-content: left;
+    margin-bottom: 100px;
+  }
+  /* about me photo */
+
+  .main-img {
+    top: 100px;
+    flex-basis: 20%;
+    max-width: 50%;
+    position: relative;
+    left: 160px; 
+  }
+  
+  /* about me text */
+  .main-txt {
+    background-color: rgba(39, 65, 83, 0.418);
+    color: white;
+    position: relative;
+    height: 200px;
+    padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+    top: 100px;
+    left: 600px;
+    bottom: 30px;
+    text-align: justify;
+    text-align-last: left;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 2;
+  }
+/* footer */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+ .footer-main {
+width: 100%;
+display: block;
+overflow: hidden;
+padding: 40px 0;
+background-color:#46503C;
+ }
+ 
+ .footer-in {
+display: block;
+margin: 0 auto;
+width: 1100px;
+height: 100px;
+ }
+
+ /* nature and me name */
+
+ .footer-in .f-logo {
+width: 100;
+   float: left;
+   height: 100%;
+   display: block;
+   padding-left: 20px;
+   font-size: 25px;
+   padding-top: 10px ;
+   margin-top: 60px;
+   color: #a79797;
+   letter-spacing: 3px;
+ }
+
+ /* footer text */
+.footer-in .f-sect {
+ display: inline-block;
+    height: 200px;
+    padding: 20px 0 0 20px;
+    text-align: center;
+    vertical-align: top;
+    width: 200px;
+    text-align: justify;
+    background-color: #46503C;
+    color: #262118;
+    letter-spacing: 1px;
+}
+.footer-in .f-sect h5{
+  font-size: 16px;
+  color: #262118;
+  font-weight: 200;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10;
+}
+
+.ul {
+  color: #262118;
+}
+.footer-in .ul.li {
+  display: block;
+  color: #262118;
+}
+
+  /* links */
+  
+  a:link {
+    color: white;
+  }
+   
+  a:visited {
+    color: white;
+  }
+  a:hover {
+    color: white;
+  }
+  a:active {
+    color: white;
+  }
+/*button contact.html*/
+.click  {
+  background-color: #527954;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+}
+/*spa text homespa.html*/
+.spa {
+  text-align: justify;
+  text-align-last: center;
+  color: #a79797;
+  letter-spacing: 3px;
+  margin-top: 100px;
+}
+/*shop button*/
+.buy {
+  background-color: #46503C;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px; 
+  padding-right: 15px;
+    margin: 4px 2px;
+    opacity: 1;
+}
+/* head fot homespa.html */
+.spa_background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/women-1898499_1920.jpg');
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.spa-text {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.spa-text {
+  background-color: transparent ;
+  border: none;
+  color: white;
+  padding: 20px;
+  letter-spacing: 2px;
+  line-height: 2;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+}
+
+/*button in homespa.html*/
+.clickspa {
+    background-color: #46503C;
+      border: none;
+      color: white;
+      text-align: center;
+      font-size: 14px;
+      padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    padding-right: 15px;
+      margin: 4px 2px;
+      opacity: 1;
+  }
+
+  .main-img {
+    top: 100px;
+    flex-basis: 20%;
+    max-width: 50%;
+    position: relative;
+    left: 160px; 
+  }
+  
+  .recipies {
+    text-align: center;
+  }
